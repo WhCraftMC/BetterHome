@@ -1,2 +1,19 @@
-# BetterHome
-一个面向高版本Bukkit/Spigot的Home插件，由TabooLib6驱动
+# Building
+
+* [Gradle](https://gradle.org/) - Dependency Management
+
+The GradleWrapper in included in this project.
+
+**Windows:**
+
+```
+gradlew.bat clean build
+```
+
+**macOS/Linux:**
+
+```
+./gradlew clean build
+```
+
+Build artifacts should be found in `./build/libs` folder.
